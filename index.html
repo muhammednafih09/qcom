@@ -3,6 +3,110 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Qcom</title>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./assets/images/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./assets/images/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./assets/images/site.webmanifest" />
+    <!-- Bootstrap 5.3.3 CSS CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
-  <body></body>
+  <body>
+    <div class="container fixed-top bg-transparent">
+      <nav
+        class="navbar navbar-expand-lg bg-light mx-auto mt-3 rounded-pill shadow-sm p-2 ps-3 pe-3"
+        style="min-width: 80%"
+      >
+        <!-- Brand (Left) -->
+        <a class="navbar-brand" href="#">
+          <img src="./assets/images/logo.webp" alt="Logo" width="40" />
+        </a>
+        <!-- Hamburger Button -->
+        <button
+          class="navbar-toggler border-0"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#mobileMenu"
+          aria-controls="mobileMenu"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Collapsible Menu and Button -->
+        <div class="navbar-collapse">
+          <!-- Navigation Menu -->
+          <ul
+            class="navbar-nav mx-auto mb-2 mb-lg-0 flex-row flex-lg-row px-3 py-1 rounded-pill d-none d-lg-flex"
+          >
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+          <!-- Mobile Navigation Menu (no rounded) -->
+          <ul
+            class="navbar-nav collapse d-lg-none position-absolute z-1 bg-light w-100 p-3 mt-3 start-0 end-0 mx-auto shadow-sm rounded-5"
+            id="mobileMenu"
+          >
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+            <!-- Mobile Sign Up Button -->
+            <li class="d-lg-none text-center mt-3">
+              <button class="btn btn-primary w-100">Sign Up</button>
+            </li>
+          </ul>
+          <!-- Desktop Sign Up Button -->
+          <div class="d-lg-block d-none ms-lg-3">
+            <button class="btn btn-primary rounded-pill">Sign Up</button>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <!-- Bootstrap 5.3.3 JS Bundle CDN -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
