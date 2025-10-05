@@ -20,6 +20,9 @@
 .primary-text {
   color: var(--primary-color) !important;
 }
+.bg-green {
+  background-color: var(--primary-color) !important;
+}
 
 body {
   background-color: var(--background-color);
