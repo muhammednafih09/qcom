@@ -64,3 +64,31 @@ body {
   color: white;
   border: 2px solid var(--primary-color);
 }
+
+.aed-symbol {
+  width: 50px; /* Adjust as needed */
+  height: 50px;
+  display: inline-block;
+}
+
+.aed-symbol svg {
+  width: 100%;
+  height: 100%;
+  fill: #212529; /* Change color as needed */
+}
+
+.aed-symbol rect {
+  fill: #212529; /* Color for the horizontal bars */
+  border-radius: 50px;
+}
+
+.icon-dirhams {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background-image: url("/assets/images/dirhams.png");
+  background-size: contain; /* fits the image inside */
+  background-repeat: no-repeat;
+  background-position: center;
+  vertical-align: middle;
+}
